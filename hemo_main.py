@@ -1,8 +1,8 @@
-import patient_equations
+import patient_equations as eq
 
 weight = 70
 height = 170
 
-print(bmi_calc (weight, height))
+print(eq.bmi_calc (weight, height))
 
 
