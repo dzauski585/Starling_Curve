@@ -43,7 +43,7 @@ def ebv_calc(g, w):
 def abl_calc(ebv, h0, hf):
     hgb0 = h0 / 3
     abl = ebv * (h0 - hf) / h0
-    return round(abl)     
+    return round(abl), round (hgb0)     
 
 #Calculate mean arterial blood pressure from given systolic and diastolic pressures
 def map_calc(sbp, dbp):
