@@ -75,7 +75,7 @@ def ci_calc(co, bsa):
 
 #Stroke Volume calculation based on co and hr
 def sv_calc(co, hr):
-    sv = co * hr 
+    sv = (co / hr) * 1000 
     return round(sv) 
 
 #Stroke Volume index calculation
