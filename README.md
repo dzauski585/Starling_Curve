@@ -30,7 +30,7 @@ Calculates CO using the modified Fick method. This requires the patient age, bsa
 Calculates SV based on the CO obtained in the above function and HR which is supplied. SV is in ml so take care to input the correct CO, and HR so the equation and convert for you. 
 
 ### Patient Specific Point
-This point in red on the plot shows the patients approximate position on the starling curve. Refer to the graphic below to help with interpretation. The example reference shows the patient to be requiring some fluid and some inotropic support. 
+This point in red on the plot shows the patients approximate position on the starling curve. Refer to the graphic below to help with interpretation. The example reference shows the patient to be requiring some fluid and some inotropic support. This point required an LVEDP calculation since we are striving for limiting invasive procedures. The equation was found in Abd-El-Aziz TA. Noninvasive prediction of left ventricular end-diastolic pressure in patients with coronary artery disease and preserved ejection fraction. Can J Cardiol. 2012 Jan-Feb;28(1):80-6. doi: 10.1016/j.cjca.2011.02.001. Epub 2011 Jul 2. PMID: 21723693. The equation is as follows: LVEDP = [0.54 MABP × (1 - EF)] - 2.23. This was the best of three equations defined in the paper above and had an r value of approximately 0.8.
 [https://en.wikipedia.org/wiki/Frank%E2%80%93Starling_law](images/image.png)
 
 ## Example Output
